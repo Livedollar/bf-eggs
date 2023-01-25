@@ -2,17 +2,15 @@
   padding: 24px;
 }
 
-.eyeLogo{
- border-radius: 100%;  
- height: 60px;
-}
-
 .INFO {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 24px;
-  text-align: center;
+}
+
+.label {
+  margin: 5px;
+  margin-bottom: 20px;
 }
 
  

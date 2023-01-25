@@ -1,15 +1,15 @@
 
 import type { NextPage } from "next";
 import Header from "../components/Header";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/MyNfts.module.css";
 
-const Home: NextPage = () => {
+const MyNfts: NextPage = () => {
   return (
     <div className={styles.container}>
         <Header/>
-        <p>Home</p>
+        <p>MyNfts</p>
         </div>  
   );
 };
 
-export default Home;
+export default MyNfts;

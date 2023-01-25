@@ -1,15 +1,15 @@
 
 import type { NextPage } from "next";
 import Header from "../components/Header";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/WriteNote.module.css";
 
-const Home: NextPage = () => {
+const WriteNote: NextPage = () => {
   return (
     <div className={styles.container}>
         <Header/>
-        <p>Home</p>
+        <p>WriteNote</p>
         </div>  
   );
 };
 
-export default Home;
+export default WriteNote;
