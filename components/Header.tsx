@@ -6,16 +6,16 @@ const Header: React.FC = () => {
    <div>
     <div>
     <Link href={"/"}>
-    Claim</a>
+   <a>Claim</a>
       </Link>
       <Link href={"/nfts"}>
-      NFTS </a>
+     <a> NFTS </a>
       </Link>
       <Link href={"/my-nfts"}>
-      My NFTS</a>
+      <a>My NFTS</a>
       </Link>
       <Link href={"/write-note"}>
-     Write Note </a>
+    <a> Write Note </a>
       </Link>
     </div>
     <ConnectWallet  colorMode="light"accentColor="#5500f4" />
